@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ce90363c8de04436",
+        "id": "bba344dd24e2e498",
         "type": "tabs",
         "children": [
           {
-            "id": "d9e59b7397bd390e",
+            "id": "193f9c0eda961e60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L10 Training Neural Networks/note.md",
+                "file": "L12 Recurrent Neutral Network/note.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "43b9ae44e7b435b8",
@@ -95,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "L12 Recurrent Neutral Network/note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "note 的反向链接列表"
             }
           },
           {
@@ -165,7 +165,8 @@
               "title": "note 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -184,26 +185,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d9e59b7397bd390e",
+  "active": "193f9c0eda961e60",
   "lastOpenFiles": [
-    "L10 Training Neural Networks/image resource/Pasted image 20260328112111.png",
-    "L10 Training Neural Networks/image resource/Pasted image 20260328112015.png",
-    "L10 Training Neural Networks/image resource/Pasted image 20260328111943.png",
-    "L10 Training Neural Networks/image resource/Pasted image 20260328111744.png",
-    "L10 Training Neural Networks/image resource/Pasted image 20260328105100.png",
-    "L10 Training Neural Networks/image resource/Pasted image 20260328104012.png",
-    "L10 Training Neural Networks/image resource/Pasted image 20260328103708.png",
-    "L10 Training Neural Networks/image resource/Pasted image 20260328103645.png",
-    "L10 Training Neural Networks/image resource/Pasted image 20260328103303.png",
-    "L10 Training Neural Networks/image resource/Pasted image 20260328103148.png",
-    "L10 Training Neural Networks/image resource/Pasted image 20260328101532.png",
-    "L10 Training Neural Networks/image resource",
-    "L9 Software and Hardware/note.md",
-    "L10 Training Neural Networks/note.md",
-    "L10 Training Neural Networks",
+    "L12 Recurrent Neutral Network/image resource/Pasted image 20260403164031.png",
+    "L12 Recurrent Neutral Network/image resource/Pasted image 20260403164015.png",
+    "L12 Recurrent Neutral Network/image resource/Pasted image 20260403163952.png",
+    "L12 Recurrent Neutral Network/image resource/Pasted image 20260403162453.png",
+    "L12 Recurrent Neutral Network/image resource/Pasted image 20260403162406.png",
+    "L12 Recurrent Neutral Network/image resource/Pasted image 20260403151617.png",
+    "L12 Recurrent Neutral Network/image resource/Pasted image 20260403151553.png",
+    "L12 Recurrent Neutral Network/image resource/Pasted image 20260403150324.png",
+    "L12 Recurrent Neutral Network/image resource/Pasted image 20260403144641.png",
+    "L12 Recurrent Neutral Network/image resource/Pasted image 20260403144318.png",
+    "L12 Recurrent Neutral Network/image resource/Pasted image 20260403144118.png",
+    "L12 Recurrent Neutral Network/image resource",
+    "L11 Training Neural Networks II/note.md",
+    "L12 Recurrent Neutral Network/note.md",
+    "L12 Recurrent Neutral Network",
+    "L11 Training Neural Networks II/image resource",
+    "L10 Training Neural Networks I/note.md",
+    "L11 Training Neural Networks II",
+    "作业/A3/note.md",
     "L7 Convolution Networks/note.md",
-    "L9 Software and Hardware/image resource",
+    "作业/A3",
     "L8 CNN Architectures/note.md",
+    "L10 Training Neural Networks I/image resource",
+    "L9 Software and Hardware/note.md",
+    "L10 Training Neural Networks I",
+    "L9 Software and Hardware/image resource",
     "L6 BackPropagation/note.md",
     "L9 Software and Hardware",
     "Matrix Calculus is All You Need.md",
@@ -214,12 +223,7 @@
     "2.md",
     "education.pdf",
     "helper.md",
-    "教育学.pdf",
-    "a.pdf",
-    "L8 CNN Architectures/image resource",
-    "L8 CNN Architectures",
     "L1 Introduction/note.md",
-    "L7 Convolution Networks/image resource",
     "L5 Neural Network/note.md",
     "L3 Linear Classifier/note.md",
     "L2 Image Classification/note.md",

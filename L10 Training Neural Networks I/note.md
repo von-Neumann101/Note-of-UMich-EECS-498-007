@@ -51,6 +51,7 @@ PCA和白化不太常见
 # Weight Initialization
 全部初始化为0，显然不好！ReLU会炸
 对于浅层的网络我们考虑使用高斯分布，但是这对于深层网络不太好——梯度消失，激活值趋于0
+解释一下这里的图：x轴就是Activation值，y轴代表频率
 ![[Pasted image 20260328101220.png|561]]
 我们可以考虑增大权重矩阵的初始值，但是会导致更大问题
 ![[Pasted image 20260328101345.png|566]]
@@ -98,3 +99,33 @@ L2, L1, L1+L2
 dropout一般只在大型全连接神经网络中有效
 批归一化，数据增强是主流
 有时cutout和mixup对于很少的数据量会非常有效
+# 回顾
+![[Pasted image 20260331194207.png|367]]
+我们回顾一下全连接神经网络，顺带解决一下Dropout和Dropconnect
+我们输入一个向量 $\vec{x}\in\mathbb{R}^3$ ，其三个分量分别（特征）给输入层的三个神经元，每个连接都代表乘以一个权重，前面的神经元的激活值相加，所以
+$w_{ij}$代表的就是i神经元和另一个j神经元的连接
+$$\begin{align}
+x &= \begin{bmatrix} x_1 & x_2 & x_3 \end{bmatrix} \\
+
+W^{(1)} &= 
+\begin{bmatrix}
+w_{11} & w_{12} & w_{13} & w_{14} \\
+w_{21} & w_{22} & w_{23} & w_{24} \\
+w_{31} & w_{32} & w_{33} & w_{34}
+\end{bmatrix} \\
+
+h &= x W^{(1)} \\
+  &= \begin{bmatrix} h_1 & h_2 & h_3 & h_4 \end{bmatrix} \\
+
+h_1 &= x_1 w_{11} + x_2 w_{21} + x_3 w_{31} \\
+h_2 &= x_1 w_{12} + x_2 w_{22} + x_3 w_{32} \\
+h_3 &= x_1 w_{13} + x_2 w_{23} + x_3 w_{33} \\
+h_4 &= x_1 w_{14} + x_2 w_{24} + x_3 w_{34}
+\end{align}$$
+所以说，Dropout和Dropconnect的区别就是，一个抹去一个x一个抹去w
+Dropout
+![[Pasted image 20260331194329.png|371]]
+这里就是$x_1=0$（这也等价与删去该点全部的连接）
+Dropconnect
+![[Pasted image 20260331194441.png|410]]
+这里相当于$w_{11},w_{14},w_{22},w_{31}=0$

@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "L12 Object Detection/note.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -74,11 +74,13 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "43b9ae44e7b435b8",
@@ -187,19 +189,22 @@
   },
   "active": "193f9c0eda961e60",
   "lastOpenFiles": [
-    "L1 Recurrent Neutral Network/note.md",
+    "L12 Object Detection/image resource/Pasted image 20260405155907.png",
+    "L12 Object Detection/image resource/Pasted image 20260405155750.png",
+    "L12 Object Detection/image resource/Pasted image 20260405155447.png",
+    "L12 Object Detection/image resource/Pasted image 20260405154642.png",
+    "L12 Object Detection/image resource/Pasted image 20260405154130.png",
+    "L12 Object Detection/image resource/Pasted image 20260405153609.png",
+    "L12 Object Detection/image resource/Pasted image 20260405153249.png",
+    "L12 Object Detection/image resource/Pasted image 20260405151504.png",
+    "L12 Object Detection/image resource/Pasted image 20260405144442.png",
+    "L12 Object Detection/image resource/Pasted image 20260405144323.png",
+    "L12 Object Detection/image resource/Pasted image 20260405143622.png",
+    "作业/A1/A1 note.md",
     "L12 Object Detection/note.md",
+    "L12 Object Detection/image resource",
+    "L1 Recurrent Neutral Network/note.md",
     "L12 Object Detection",
-    "L1 Recurrent Neutral Network/image resource/Pasted image 20260404091522.png",
-    "L1 Recurrent Neutral Network/image resource/Pasted image 20260404091441.png",
-    "L1 Recurrent Neutral Network/image resource/Pasted image 20260404091349.png",
-    "L1 Recurrent Neutral Network/image resource/Pasted image 20260404091157.png",
-    "L1 Recurrent Neutral Network/image resource/Pasted image 20260404090938.png",
-    "L1 Recurrent Neutral Network/image resource/Pasted image 20260404090819.png",
-    "L12 Recurrent Neutral Network/image resource/Pasted image 20260404090727.png",
-    "L1 Recurrent Neutral Network/image resource/Pasted image 20260404090523.png",
-    "L1 Recurrent Neutral Network/image resource/image-2.png",
-    "L1 Recurrent Neutral Network/image resource/Pasted image 20260404084411.png",
     "L1 Recurrent Neutral Network/image resource",
     "L11 Training Neural Networks II/note.md",
     "L1 Recurrent Neutral Network",
@@ -215,10 +220,8 @@
     "L10 Training Neural Networks I",
     "L9 Software and Hardware/image resource",
     "L6 BackPropagation/note.md",
-    "L9 Software and Hardware",
     "Matrix Calculus is All You Need.md",
     "L4 Optimization/note.md",
-    "作业/A1/A1 note.md",
     "1.md",
     "3.md",
     "2.md",

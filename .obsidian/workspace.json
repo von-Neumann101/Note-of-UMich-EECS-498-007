@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L12 Object Detection/note.md",
-                "mode": "preview",
+                "file": "L13 Detection & Segmentation/note.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -74,13 +74,11 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "43b9ae44e7b435b8",
@@ -189,19 +187,22 @@
   },
   "active": "193f9c0eda961e60",
   "lastOpenFiles": [
-    "L12 Object Detection/image resource/Pasted image 20260405155907.png",
-    "L12 Object Detection/image resource/Pasted image 20260405155750.png",
-    "L12 Object Detection/image resource/Pasted image 20260405155447.png",
-    "L12 Object Detection/image resource/Pasted image 20260405154642.png",
-    "L12 Object Detection/image resource/Pasted image 20260405154130.png",
-    "L12 Object Detection/image resource/Pasted image 20260405153609.png",
-    "L12 Object Detection/image resource/Pasted image 20260405153249.png",
-    "L12 Object Detection/image resource/Pasted image 20260405151504.png",
-    "L12 Object Detection/image resource/Pasted image 20260405144442.png",
-    "L12 Object Detection/image resource/Pasted image 20260405144323.png",
-    "L12 Object Detection/image resource/Pasted image 20260405143622.png",
-    "作业/A1/A1 note.md",
+    "L13 Detection & Segmentation/image resource/Pasted image 20260407155204.png",
+    "L13 Detection & Segmentation/image resource/Pasted image 20260407155023.png",
+    "L13 Detection & Segmentation/image resource/Pasted image 20260407155003.png",
+    "L13 Detection & Segmentation/image resource/Pasted image 20260407154930.png",
+    "L13 Detection & Segmentation/image resource/Pasted image 20260407154727.png",
+    "L13 Detection & Segmentation/image resource/Pasted image 20260407154636.png",
+    "L13 Detection & Segmentation/image resource/Pasted image 20260407154503.png",
+    "L13 Detection & Segmentation/image resource/Pasted image 20260407154017.png",
+    "L13 Detection & Segmentation/image resource/Pasted image 20260407153931.png",
+    "L13 Detection & Segmentation/image resource/Pasted image 20260407153253.png",
+    "L13 Detection & Segmentation/image resource/Pasted image 20260407153222.png",
     "L12 Object Detection/note.md",
+    "L13 Detection & Segmentation/note.md",
+    "L13 Detection & Segmentation/image resource",
+    "L13 Detection & Segmentation",
+    "作业/A1/A1 note.md",
     "L12 Object Detection/image resource",
     "L1 Recurrent Neutral Network/note.md",
     "L12 Object Detection",
@@ -217,8 +218,6 @@
     "L8 CNN Architectures/note.md",
     "L10 Training Neural Networks I/image resource",
     "L9 Software and Hardware/note.md",
-    "L10 Training Neural Networks I",
-    "L9 Software and Hardware/image resource",
     "L6 BackPropagation/note.md",
     "Matrix Calculus is All You Need.md",
     "L4 Optimization/note.md",

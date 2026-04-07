@@ -87,3 +87,9 @@ Resize方法（不通过扭曲Feature Map，而是通过Max Pooling）
 2. RPN 回归：变形系数
 3. Object 分类：分类每个Proposal是背景还是Object
 4. Object 回归：变形系数
+##### 总结
+先直接把图片输入Backbone CNN，得到Feature Map
+然后生成Anchor，利用GT（人工标注的框）给Anchor打标签（利用IoU）
+过RPN(Region Proposal Network)，生成提议
+然后RoI pooling
+最后我们的每个Detection Head（CNN）分类并且生成更精确的框

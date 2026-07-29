@@ -4,7 +4,7 @@ Image Classification: A core CV task
 计算机看到的是一个巨大的矩阵(e.g. 800 x 800 x 3)
 ![[Pasted image 20260311082819.png|126]]
 挑战：如果对于同一个猫，稍微换一种角度，矩阵都会大不相同。不同的猫更不一样了。如果我们想识别不同种的猫，如何提高鲁棒性。背景干扰。光照干扰。动作。遮挡
-[[L12 Object Detection/note|目标检测]]：
+[[Deep Learning/DeepLearning for CV/L12 Object Detection/note|目标检测]]：
 ![[Pasted image 20260311083539.png]]
 
 Hard-code难以解决分类 -> Machine Learning

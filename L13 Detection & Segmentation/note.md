@@ -38,7 +38,7 @@
 解决方法就是 **RoI Align**
 
 > [!为什么RPN还能正常训练呢？] 为什么RPN还能正常训练呢？
-> 先看看整体的运行流程：[[L12 Object Detection/note#总结|note]]
+> 先看看整体的运行流程：[[Deep Learning/DeepLearning for CV/L12 Object Detection/note#总结|note]]
 > 我们注意到有两条独立的Loss流程
 > L_RPN → RPN → backbone
 > L_det → RoI → proposal → RPN

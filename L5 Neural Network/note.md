@@ -23,12 +23,7 @@
 ![[Pasted image 20260316084053.png|623]]
 # 神经网络
 ## 简介
-$$\begin{align*}
-f=W_2\cdot \mathrm{ReLU}(W_1x)\\
-W2\in\mathbb{R}^{C\times H},
-W1\in\mathbb{R}^{H\times D},
-x\in\mathbb{R}^{D}
-\end{align*}$$ (2-layer Neural Network)，此处省略了偏置项
+(2-layer Neural Network)，此处省略了偏置项
 ![[Pasted image 20260316085206.png|363]]
 MLP：多层感知机
 

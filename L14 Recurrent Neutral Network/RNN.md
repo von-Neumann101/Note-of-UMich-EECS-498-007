@@ -13,7 +13,7 @@ $$h_t=f_W(h_{t-1},x_t)$$
 $$h_t = \tanh(W_{hh}h_{t-1}+W_{xh}x_t)$$
 $$y_t=W_{hy}h_t$$
  由于是循环，实际我们并不会把一个神经网络展开成这样，同理我们所有的两个输入$h_t$和$x_t$都是用的一个权重矩阵。对于每一个$y$，我们都会产生一个Loss，最终的总Loss就是部分Loss和
- 反向传播的精髓在于复制门和加法门的正反向
+ 反向传播的精髓在于**复制门和加法门的正反向**
  ![[Pasted image 20260403142418.png|411]]
 其他的输入输出对应one和many的都是一样的逻辑。
 但是有一种——Seq2Seq，其输入和输出长度是不一样的，从结构上来说RNN无法实现，我们维护一个总的隐藏状态$h_t$，从Many2One到One2Many(Encoder-Decoder)
@@ -31,7 +31,7 @@ $$y_t=W_{hy}h_t$$
 注意到我们的权重矩阵乘以独热向量本质就是取权重矩阵的某一列，所以我们专门使用一个Embedding Layer来干这个事
 ![[Pasted image 20260403150324.png|409]]
 注意到我们的计算图会随着时间不断增加（虽然实际神经网络不会变大）， 如果我们训练超长的序列——会导致我们的计算图非常大，以至于GPU无法装下。和mini-Batch一样，我们通过**截断反向传播**，每隔一段时间步都会计算一次Loss，反向传播**只在这一段的时间上**反向传播
-![[Pasted image 20260403151553.png|169]]
+![[Pasted image 20260403151553.png|194]]
 ![[Pasted image 20260403151617.png|324]]
 ## 寻找可解释性
 我们先跑一遍forward，然后选择一个$h_t$的一个维度，然后取出时间序列(`scores = [h_t[i] for t in T]`)，然后用$\tanh$把每个分数映射到color上
@@ -69,7 +69,7 @@ tanh属于历史问题(2000年以前的论文，此时没有ReLU)
 1. 梯度裁剪：当梯度的l2范数大于某个阈值，我们就把梯度乘以一个因子$\frac{\mathrm{threshold}}{\mathrm{gradnorm}}$以缩小
 2. LSTM：解决梯度过小，我们每次都维护一个历史，每次把历史输入新的循环，同时也输出历史（$h_t,c_t$）
 这是从前向传播来看LSTM：
-![[image-2.png|563]]
+![[Deep Learning/DeepLearning for CV/L14 Recurrent Neutral Network/image resource/image-2.png|563]]
 
 反向传播：
 ![[Pasted image 20260404090523.png]]

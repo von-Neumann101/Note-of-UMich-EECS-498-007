@@ -97,7 +97,7 @@ $$\begin{aligned}
 ![[Pasted image 20260319183606.png]]
 
 这就像你吃牛肉一样，Batch Norm就是正交于肌肉纤维咬，Layer Norm是平行于肌肉纤维咬
-
+#卷积 #卷积神经网络 #归一化
 
 
 

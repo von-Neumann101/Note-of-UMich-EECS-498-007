@@ -129,3 +129,4 @@ Dropout
 Dropconnect
 ![[Pasted image 20260331194441.png|410]]
 这里相当于$w_{11},w_{14},w_{22},w_{31}=0$
+#激活函数 #dropout #参数初始化 #网络训练

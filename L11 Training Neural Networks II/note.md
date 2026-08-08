@@ -117,3 +117,4 @@ loss也具备线性性
 ![[Pasted image 20260401091007.png|501]]
 Lr warmup
 ![[Pasted image 20260401091052.png]]
+#网络训练 #学习率 #后训练

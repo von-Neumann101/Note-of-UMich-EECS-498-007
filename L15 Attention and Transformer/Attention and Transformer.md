@@ -63,3 +63,4 @@ $$
 这里把图片切为**Patches**然后展平为一维向量——一个 patch 相当于一个 token；这个 patch 展平后再经过线性投影，得到的向量相当于该 token 的 embedding
 
 ViT中没有掩码注意力了，因为图像没有所谓的未来
+#注意力 #Transformer #ViT #残差 #归一化

@@ -88,3 +88,4 @@ LSTM很多变体，但是性能和原件差不多
 生成神经网络的神经网络
 ![[Pasted image 20260404091522.png]]
 GRU和LSTM很好！
+#RNN #LSTM #序列问题

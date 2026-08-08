@@ -58,6 +58,6 @@ KL散度：
 ![[Pasted image 20260312202019.png|278]]
 $\mathbb{D}_{KL}(y||p)=-\log p_{correct}$，$y$是独热标签所以只有正确（阳性）标签才取-log
 如果随机，Loss约等于log(C)
-
+#支持向量机 #线性层 #正则化
 
 

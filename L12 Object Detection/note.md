@@ -127,3 +127,4 @@ Focal Loss就会自动忽略大量简单的background anchors，对于趋于1的
 
 最终的Score就需要centerness$\times$classification得到
 ![[Pasted image 20260410094952.png]]
+#目标检测 #R-CNN #RPN #mAP #FPN #目标检测

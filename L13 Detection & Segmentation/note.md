@@ -136,3 +136,4 @@ $$i\in \{\left\lfloor x \right\rfloor+1,...,\left\lceil x \right\rceil+1\},\ j\i
 
 这是一个源泉，往里面接不同的头可以干不同的事情
 ![[Pasted image 20260407155204.png]]
+#语义分割 #目标检测 #RPN #FPN
